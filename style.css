@@ -82,11 +82,15 @@ header div a:hover {
 }
 
 .card {
-  float: left;
-  display: inline-block;
-  width: calc(33% - 10px);
+  flex: 1 1 30%;
   margin: 10px 5px;
   background-color: white;
+}
+
+main {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
 }
 
 .card div {
